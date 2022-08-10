@@ -1,0 +1,307 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*ENCABEZADO*/
+html{
+    font-size: 62.5%;
+}
+
+
+ul{
+    list-style: none;
+    line-height: 50px;
+}
+
+
+
+.espacio{
+    width: 500px;
+    height: 600px;
+}
+
+
+
+header nav ul li a{
+    color: darkblue;
+    border-radius: 5px;
+    background-color: palegoldenrod
+}
+
+.opciones{
+    font-size: x-large;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.opciones a:hover{
+    background-color: darkred;
+    color: palegoldenrod;
+    
+}
+
+.colorblue{
+    color: darkblue;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section p {
+    margin-left: 0.3%;
+    padding: 2%;
+}
+
+main div p{
+    margin: 1%;
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 0.5%;
+}
+
+
+.colorblue {
+    font-size: 2rem
+}
+
+header nav ul li{
+    line-height: 40px;
+    display: inline-block;
+    padding: 1rem 1rem
+}
+
+
+header{
+ background-image: url(../imagenes/stretched-1600-900.jpg)
+
+}
+
+.colorblue nav ul li a{
+    color: darkblue;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/*CUERPO DEL SITIO*/
+
+body{
+    background: rgb(224,223,110);
+    background: linear-gradient(0deg, rgba(224,223,110,1) 9%, rgba(117,117,66,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+main nav ul li {
+    line-height: 40px;
+    display: inline-block;
+    padding: 1rem 1rem
+
+}
+
+
+main nav ul li a{
+    font-size: xx-large
+    
+}
+
+main section p{
+    height: 200px;
+    transition: height 2s;
+}
+
+.texto{
+    color: darkblue;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: x-large;
+}
+
+
+
+nav h4{
+    font-size: x-large;
+    width: 40%;
+    padding: 10px ;
+    margin: 1px;
+    margin-top: 1px;
+}
+
+
+.form-register{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Fira Sans', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+    background-color: dimgray
+}
+
+
+
+.botons{
+    width: 40%;
+    padding: 10px ;
+    margin-bottom: 15px;
+}
+
+.controls {
+    width: 80%;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+
+.form-register h2 {
+    text-align: justify;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.form-register h3{
+    text-align: justify;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+
+.mensaje {
+    width: 80%;
+    padding: 50px;
+}
+
+.colorred, .colorred div p{
+    color: darkred; 
+    font-size: xx-large;
+}
+
+.trans1:hover{
+  transform: scale(1.5);
+  transition: all 1s;
+}
+
+.trans2:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.trans3:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.trans4:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.trans5:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.trans6:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+/*PIE DEL SITIO*/
+
+footer{
+    background-color: black
+}
+
+footer iframe{
+    margin-left: 81%;
+    
+}
+
+footer div p{ 
+    color: rgb(92, 92, 224)
+}
+
+footer div p{
+    font-size: large;
+}
+
+
+footer nav ul li a{
+    color: rgb(92, 92, 224);
+    font-size: large;
+    margin-right: 10%;
+}
+
+footer nav ul li a:hover{
+    text-decoration:underline;
+}
+
+/* FLEXBOX Y GRID*/
+
+
+
+.politicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.ubicacion{
+    display: flex;
+}
+
+.ubicacion{
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2%;
+   
+}
+
+.copyright{
+    display: flex;
+}
+
+.copyright{
+    flex-direction: row;
+    justify-content: center;
+}
+
+main iframe{
+    padding: 0.5%;
+    margin: 15%;
+
+}
+
+header{
+    display: flex;
+    
+}
+
+
+.contenedor{
+    width: 75%;
+    margin: auto;
+}
+
+
+
+
+.bandacolumna{
+    margin: 5px;
+}
+
+.banda .contenedor{
+    display: grid;
+}
+
+@media(min-width:680px){
+    
+    .banda .contenedor{
+
+     grid-template-columns: repeat(2,50%)
+
+    } 
+}
+
